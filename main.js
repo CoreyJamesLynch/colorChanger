@@ -4,7 +4,6 @@ let body = document.querySelector('body');
 
 colorChanger.addEventListener('click', () => {
   let colors = colorControl(colorRandomize());
-  console.log(colors);
   title.innerHTML = `${colors[1]}`;
   title.style = `color: ${colors[0]}`;
   body.style = `background-color: ${colors[1]}`;
